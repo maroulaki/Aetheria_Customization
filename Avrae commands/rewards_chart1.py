@@ -7,22 +7,10 @@ gems_50gp_d12 = ["Bloodstone (opaque dark gray with red flecks)", "Carnelian (op
 
 gems_100gp_d10 = ["Amber (transparent watery gold to rich gold)", "Amethyst (transparent deep purple)", "Chrysoberyl (transparent yellow-green to pale green)", "Coral (opaque crimson)", "Garnet (transparent red, brown-green, or violet)", "Jade (translucent light green, deep green, or white)", "Jet (opaque deep black)", "Pearl (opaque lustrous white, yellow, or pink)", "Spinel (transparent red, red-brown, or deep green)", "Tourmaline (transparent pale green, blue, brown, or red)"]
 
-gems_500gp_d6 = ["Alexandrite (transparent dark green)", "Aquamarine (transparent pale blue-green)", "Black pearl (opaque pure black)", "Blue spinel (transparent deep blue)", "Peridot (transparent rich olive green)", "Topaz (transparent golden yellow)"]
-
-gems_1000_d10 = ["Black opal (translucent dark green with black mottling and golden flecks)", "Blue sapphire (transparent blue-white to medium blue)", "Emerald (transparent deep bright green)", "Fire opal (translucent fiery red)", "Opal (translucent pale blue with green and golden mottling)", "Star ruby (translucent ruby with white star-shaped center)", "Star sapphire (translucent blue sapphire with white star-shaped center)", "Yellow sapphire (transparent fiery yellow or yellow green)"]
-
-gems_5000_d4 = ["Black sapphire (translucent lustrous black with glowing highlights)", "Diamond (transparent blue-white, canary, pink, brown, or blue)", "Jacinth (transparent fiery orange)", "Ruby (transparent clear red to deep crimson)"]
-
 #Art Objects rolling tables from DMG
 art_25gp_d10 = ["Silver ewer", "Carved bone statuette", "Small gold bracelet", "Cloth-of-gold vestments", "Black velvet mask stitched with silver thread", "Copper chalice with silver filigree", "Pair of engraved bone dice", "Small mirror set in a painted wooden frame", "Embroidered silk handkerchief", "Gold locket with a painted portrait inside"]
 
 art_250gp_d10 = ["Gold ring set with bloodstones", "Carved ivory statuette", "Large gold bracelet", "Silver necklace with a gemstone pendant", "Bronze crown", "Silk robe with gold embroidery", "Large well-made tapestry", "Brass mug with jade inlay", "Box of turquoise animal figurines", "Gold bird cage with electrum filigree"]
-
-art_750gp_d10 = ["Silver chalice set with moonstones", "Silver-plated steellongsword with jet set in hilt", "Carved harp of exotic wood with ivory inlay and zircon gems", "Small gold idol", "Gold dragon comb set with red garnets as eyes", "Bottle stopper cork embossed wi th gold leaf and set wi th amethysts", "Ceremonial electrum dagger with a black pearl in the pommel", "Silver and gold brooch", "Obsidian statuette with gold fittings and inlay", "Painted gold war mask"]
-
-art_2500gp_d10 = ["Fine gold chain set with a fire opal", "Old masterpiece painting", "Embroidered silk and velvet mantle set with numerous moonstones", "Platinum bracelet set with a sapphire", "Embroidered glove set with jewel chips", "Jeweled anklet", "Gold music box", "Gold circlet set with four aquamarines", "Eye patch with a mock eye set in blue sapphire and moonstone", "A necklace string of small pink pearls"]
-
-art_7500gp_d8 = ["Jeweled gold crown", "jeweled platinum ring:", "Small gold statuette set with rubies", "Gold cup set with emeralds", "Gold jewelry box with platinum filigree", "Painted gold child's sarcophagus", "Jade game board with solid gold playing pieces", "Bejeweled ivory drinking horn with gold filigree"]
 
 #Magic Item tables
 A = {
@@ -103,35 +91,6 @@ C = {
 	"98":"Necklace of fireballs",
 	"99":"Periapt of health",
 	"00":"Sending stones",
-}
-
-D = {
-	"01-20":"Potion of supreme healing",
-	"21-30":"Potion of invisibility",
-	"31-40":"Potion of speed",
-	"41-50":"Spell scroll (6th level)",
-	"51-57":"Spell scroll (7th level)",
-	"58-62":"+3 ammunition",
-	"63-67":"Oil of sharpness",
-	"68-72":"Potion of flying",
-	"73-77":"Potion of cloud giant strength",
-	"78-82":"Potion of longevity",
-	"83-87":"Potion of vitality",
-	"88-92":"Spell scroll (8th level)",
-	"93-95":"Horseshoes of a zephyr",
-	"96-98":"Nolzur's marvelous pigments",
-	"99":"Bag of devouring",
-	"00":"Portable hole"
-}
-
-E = {
-	"01-30":"Spell scroll (8th level)"
-	"31-55":"Potion of storm giant strength"
-	"56-70":"Potion of supreme healing"
-	"71-85":"Spell scroll (9th level)"
-	"86-93":"Universal solvent"
-	"94-98":"Arrow of slaying"
-	"99-100":"Sovereign glue"
 }
 
 F = {
@@ -288,137 +247,7 @@ G ={
 	"00":"Wings of flying"
 }
 
-H = {
-	"01-10":"+3 weapon",
-	"11-12":"Amulet of the planes",
-	"13-14":"Carpet of flying",
-	"15-16":"Crystal ball",
-	"17-18":"Ring of regeneration",
-	"19-20":"Ring of shooting stars",
-	"21-22":"Ring of telekinesis",
-	"23-24":"Robe of scintillating colors",
-	"25-26":"Robe of stars",
-	"27-28":"Rod of absorption",
-	"29-30":"Rod of alertness",
-	"31-32":"Rod of security",
-	"33-34":"+3 rod of the pact keeper",
-	"35-36":"Scimitar of speed",
-	"37-38":"+3 shield",
-	"39-40":"Staff of fire",
-	"41-42":"Staff of frost",
-	"43-44":"Staff of power",
-	"45-46":"Staff of striking",
-	"47-48":"Staff of thunder and lightning",
-	"49-50":"Sword of sharpness",
-	"51-52":"Wand of polymorph",
-	"53-54":"+3 wand of the war mage",
-	"55":"Adamantine half plate armor",
-	"56":"Adamantine plate armor",
-	"57":"Animated shield",
-	"58":"Belt of fire giant strength",
-	"59","Belt of giant strength"
-	"60":"+1 breastplate",
-	"61":"Breastplate of resistance",
-	"62":"Candle of invocation",
-	"63":"+2 chain mail",
-	"64":"+2 chain shirt",
-	"65":"Cloak of arachnida",
-	"66":"Dancing sword",
-	"67":"Demon armor",
-	"68":"Dragon scale mail",
-	"69":"Dwarven plate",
-	"70":"Dwarven thrower",
-	"71":"Efreeti bottle",
-	"72":"Figurine of wondrous power, obsidian steed",
-	"73":"Frost brand",
-	"74":"Helm of brilliance",
-	"75":"Horn of valhalla, bronze",
-	"76":"Instrument of the bards, anstruth harp",
-	"77":"Ioun stone, absorption",
-	"78":"Ioun stone, agility",
-	"79":"Ioun stone, fortitude",
-	"80":"Ioun stone, insight",
-	"81":"Ioun stone, intellect",
-	"82":"Ioun stone, leadership",
-	"83":"Ioun stone, strength",
-	"84":"+2 leather armor",
-	"85":"Manual of bodily health",
-	"86":"Manual of gainful exercise",
-	"87":"Manual of golems",
-	"88":"Manual of quickness of action",
-	"89":"Mirror of life trapping",
-	"90":"Nine lives stealer",
-	"91":"Oathbow",
-	"92":"+2 scale mail",
-	"93":"Spellguard shield",
-	"94":"+1 splint armor",
-	"95":"Splint armor of resistance",
-	"96":"+1 studded leather armor",
-	"97":"Studded leather armor of resistance",
-	"98":"Tome of clear thought",
-	"99":"Tome of leadership and influence",
-	"00":"Tome of understanding"
-}
-
-I = {
-	"01-05":"Defender",
-	"06-10":"Hammer of thunderbolts",
-	"11-15":"Luck blade",
-	"16-20":"Sword of answering",
-	"21-23":"Holy avenger",
-	"24-26":"Ring of djinni summoning",
-	"27-29":"Ring of invisibility",
-	"30-32":"Ring of spell turning",
-	"33-35":"Rod of lordly might",
-	"36-38":"Staff of the magi",
-	"39-41":"Vorpal sword",
-	"42-43":"Belt of cloud giant strength",
-	"44-45":"+2 breastplate",
-	"46-47":"+3 chain mail",
-	"48-49":"+3 chain shirt",
-	"50-51":"Cloak of invisibility",
-	"52-53":"Crystal ball (legendary version)",
-	"54-55":"+1 half plate armor",
-	"56-57":"Iron flask",
-	"58-59":"+3 leather armor",
-	"60-61":"+1 plate armor",
-	"62-63":"Robe of the archmagi",
-	"64-65":"Rod of resurrection",
-	"66-67":"+1 scale mail",
-	"68-69":"Scarab of protection",
-	"70-71":"+2 splint armor",
-	"72-73":"+2 studded leather armor",
-	"74-75":"Well of many worlds",
-	"76":"Magic armor",
-	"77":"Apparatus of kwalish",
-	"78":"Armor of invulnerability",
-	"79":"Belt of storm giant strength",
-	"80":"Cubic gate",
-	"81":"Deck of many things",
-	"82":"Efreeti chain",
-	"83":"armor of resistance||Half plate armor of resistance|",
-	"84":"Horn of valhalla, iron",
-	"85":"Instrument of the bards, ollamh harp",
-	"86":"Ioun stone, greater absorption",
-	"87":"Ioun stone, mastery",
-	"88":"Ioun stone, regeneration",
-	"89":"Plate armor of etherealness",
-	"90":"armor of resistance||Plate armor of resistance|",
-	"91":"Ring of air elemental command",
-	"92":"Ring of earth elemental command",
-	"93":"Ring of fire elemental command",
-	"94":"Ring of three wishes",
-	"95":"Ring of water elemental command",
-	"96":"Sphere of annihilation",
-	"97":"Talisman of pure good",
-	"98":"Talisman of the sphere",
-	"99":"Talisman of ultimate evil",
-	"00":"Tome of the stilled tongue"
-}
-
 #GEM ROLLING FUNCTIONS
-gems = []
-
 def roll_gems_10(gems):
 	times = 2*rand(1,6)
 	gems_10gp_d12.shuffle()
@@ -439,16 +268,7 @@ def roll_gems_100(gems):
 	for i in range(0,3):
 		gems.append(pool.pop())
 
-#not implemented yet, awaiting balance stuff
-def roll_gems_500(gems):
-
-def roll_gems_1000(gems):
-
-def roll_gems_5000(gems):
-
 #ART OBJECT ROLLING FUNCTIONS
-art = []
-
 def roll_art_25(art):
 	times = 2*rand(1,4)
 	art_25gp_d10.shuffle()
@@ -461,9 +281,18 @@ def roll_art_250(art):
 	for i in range(0,times):
 		art.append(art_250gp_d10.pop())
 
-#not implemented yet, awaiting balance stuff
-def roll_art_750(art):
+#GOLD FOR CHART 1 ONLY
+#For coins, a 4-position list is used as follows: gold=[PP,GP,SP,CP]
+def roll_gold1(gold):
+	gold.append(0)
+	gold.append(10*2*rand(1,6))
+	gold.append(100*3*rand(1,6))
+	gold.append(100*6*rand(1,6))
+#---------------COMMAND START----------------------
+gold = []
+gems = []
+art = []
 
-def roll_art_2500(art):
+roll_gold1(gold)
 
-def roll_art_7500(art):
+dice = rand(1,100)
